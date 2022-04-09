@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2162E1628019DDB0057B353 /* HestiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E1528019DDB0057B353 /* HestiaApp.swift */; };
+		A2162E1828019DDB0057B353 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E1728019DDB0057B353 /* ContentView.swift */; };
+		A2162E1A28019DDB0057B353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2162E1928019DDB0057B353 /* Assets.xcassets */; };
+		A2162E1D28019DDB0057B353 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2162E1C28019DDB0057B353 /* Preview Assets.xcassets */; };
+		A2162E1F28019DDB0057B353 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E1E28019DDB0057B353 /* Persistence.swift */; };
+		A2162E2228019DDB0057B353 /* Hestia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2162E2028019DDB0057B353 /* Hestia.xcdatamodeld */; };
+		A2162E2C28019DDB0057B353 /* HestiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E2B28019DDB0057B353 /* HestiaTests.swift */; };
+		A2162E3628019DDB0057B353 /* HestiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E3528019DDB0057B353 /* HestiaUITests.swift */; };
+		A2162E3828019DDB0057B353 /* HestiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E3728019DDB0057B353 /* HestiaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2162E2828019DDB0057B353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2162E0A28019DDB0057B353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2162E1128019DDB0057B353;
+			remoteInfo = Hestia;
+		};
+		A2162E3228019DDB0057B353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2162E0A28019DDB0057B353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2162E1128019DDB0057B353;
+			remoteInfo = Hestia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2162E1228019DDB0057B353 /* Hestia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hestia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2162E1528019DDB0057B353 /* HestiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HestiaApp.swift; sourceTree = "<group>"; };
+		A2162E1728019DDB0057B353 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2162E1928019DDB0057B353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2162E1C28019DDB0057B353 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2162E1E28019DDB0057B353 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A2162E2128019DDB0057B353 /* Hestia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hestia.xcdatamodel; sourceTree = "<group>"; };
+		A2162E2728019DDB0057B353 /* HestiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HestiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2162E2B28019DDB0057B353 /* HestiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HestiaTests.swift; sourceTree = "<group>"; };
+		A2162E3128019DDB0057B353 /* HestiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HestiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2162E3528019DDB0057B353 /* HestiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HestiaUITests.swift; sourceTree = "<group>"; };
+		A2162E3728019DDB0057B353 /* HestiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HestiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2162E0F28019DDB0057B353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2162E2428019DDB0057B353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2162E2E28019DDB0057B353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2162E0928019DDB0057B353 = {
+			isa = PBXGroup;
+			children = (
+				A2162E1428019DDB0057B353 /* Hestia */,
+				A2162E2A28019DDB0057B353 /* HestiaTests */,
+				A2162E3428019DDB0057B353 /* HestiaUITests */,
+				A2162E1328019DDB0057B353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2162E1328019DDB0057B353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2162E1228019DDB0057B353 /* Hestia.app */,
+				A2162E2728019DDB0057B353 /* HestiaTests.xctest */,
+				A2162E3128019DDB0057B353 /* HestiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2162E1428019DDB0057B353 /* Hestia */ = {
+			isa = PBXGroup;
+			children = (
+				A2162E1528019DDB0057B353 /* HestiaApp.swift */,
+				A2162E1728019DDB0057B353 /* ContentView.swift */,
+				A2162E1928019DDB0057B353 /* Assets.xcassets */,
+				A2162E1E28019DDB0057B353 /* Persistence.swift */,
+				A2162E2028019DDB0057B353 /* Hestia.xcdatamodeld */,
+				A2162E1B28019DDB0057B353 /* Preview Content */,
+			);
+			path = Hestia;
+			sourceTree = "<group>";
+		};
+		A2162E1B28019DDB0057B353 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2162E1C28019DDB0057B353 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2162E2A28019DDB0057B353 /* HestiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2162E2B28019DDB0057B353 /* HestiaTests.swift */,
+			);
+			path = HestiaTests;
+			sourceTree = "<group>";
+		};
+		A2162E3428019DDB0057B353 /* HestiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2162E3528019DDB0057B353 /* HestiaUITests.swift */,
+				A2162E3728019DDB0057B353 /* HestiaUITestsLaunchTests.swift */,
+			);
+			path = HestiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2162E1128019DDB0057B353 /* Hestia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2162E3B28019DDB0057B353 /* Build configuration list for PBXNativeTarget "Hestia" */;
+			buildPhases = (
+				A2162E0E28019DDB0057B353 /* Sources */,
+				A2162E0F28019DDB0057B353 /* Frameworks */,
+				A2162E1028019DDB0057B353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hestia;
+			productName = Hestia;
+			productReference = A2162E1228019DDB0057B353 /* Hestia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2162E2628019DDB0057B353 /* HestiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2162E3E28019DDB0057B353 /* Build configuration list for PBXNativeTarget "HestiaTests" */;
+			buildPhases = (
+				A2162E2328019DDB0057B353 /* Sources */,
+				A2162E2428019DDB0057B353 /* Frameworks */,
+				A2162E2528019DDB0057B353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2162E2928019DDB0057B353 /* PBXTargetDependency */,
+			);
+			name = HestiaTests;
+			productName = HestiaTests;
+			productReference = A2162E2728019DDB0057B353 /* HestiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2162E3028019DDB0057B353 /* HestiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2162E4128019DDB0057B353 /* Build configuration list for PBXNativeTarget "HestiaUITests" */;
+			buildPhases = (
+				A2162E2D28019DDB0057B353 /* Sources */,
+				A2162E2E28019DDB0057B353 /* Frameworks */,
+				A2162E2F28019DDB0057B353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2162E3328019DDB0057B353 /* PBXTargetDependency */,
+			);
+			name = HestiaUITests;
+			productName = HestiaUITests;
+			productReference = A2162E3128019DDB0057B353 /* HestiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2162E0A28019DDB0057B353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A2162E1128019DDB0057B353 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					A2162E2628019DDB0057B353 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A2162E1128019DDB0057B353;
+					};
+					A2162E3028019DDB0057B353 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A2162E1128019DDB0057B353;
+					};
+				};
+			};
+			buildConfigurationList = A2162E0D28019DDB0057B353 /* Build configuration list for PBXProject "Hestia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2162E0928019DDB0057B353;
+			productRefGroup = A2162E1328019DDB0057B353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2162E1128019DDB0057B353 /* Hestia */,
+				A2162E2628019DDB0057B353 /* HestiaTests */,
+				A2162E3028019DDB0057B353 /* HestiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2162E1028019DDB0057B353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2162E1D28019DDB0057B353 /* Preview Assets.xcassets in Resources */,
+				A2162E1A28019DDB0057B353 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2162E2528019DDB0057B353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2162E2F28019DDB0057B353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2162E0E28019DDB0057B353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2162E1F28019DDB0057B353 /* Persistence.swift in Sources */,
+				A2162E2228019DDB0057B353 /* Hestia.xcdatamodeld in Sources */,
+				A2162E1828019DDB0057B353 /* ContentView.swift in Sources */,
+				A2162E1628019DDB0057B353 /* HestiaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2162E2328019DDB0057B353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2162E2C28019DDB0057B353 /* HestiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2162E2D28019DDB0057B353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2162E3828019DDB0057B353 /* HestiaUITestsLaunchTests.swift in Sources */,
+				A2162E3628019DDB0057B353 /* HestiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2162E2928019DDB0057B353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2162E1128019DDB0057B353 /* Hestia */;
+			targetProxy = A2162E2828019DDB0057B353 /* PBXContainerItemProxy */;
+		};
+		A2162E3328019DDB0057B353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2162E1128019DDB0057B353 /* Hestia */;
+			targetProxy = A2162E3228019DDB0057B353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2162E3928019DDB0057B353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2162E3A28019DDB0057B353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2162E3C28019DDB0057B353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hestia/Preview Content\"";
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.Hestia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2162E3D28019DDB0057B353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hestia/Preview Content\"";
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.Hestia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2162E3F28019DDB0057B353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.HestiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hestia.app/Hestia";
+			};
+			name = Debug;
+		};
+		A2162E4028019DDB0057B353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.HestiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hestia.app/Hestia";
+			};
+			name = Release;
+		};
+		A2162E4228019DDB0057B353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.HestiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hestia;
+			};
+			name = Debug;
+		};
+		A2162E4328019DDB0057B353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.HestiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hestia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2162E0D28019DDB0057B353 /* Build configuration list for PBXProject "Hestia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2162E3928019DDB0057B353 /* Debug */,
+				A2162E3A28019DDB0057B353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2162E3B28019DDB0057B353 /* Build configuration list for PBXNativeTarget "Hestia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2162E3C28019DDB0057B353 /* Debug */,
+				A2162E3D28019DDB0057B353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2162E3E28019DDB0057B353 /* Build configuration list for PBXNativeTarget "HestiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2162E3F28019DDB0057B353 /* Debug */,
+				A2162E4028019DDB0057B353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2162E4128019DDB0057B353 /* Build configuration list for PBXNativeTarget "HestiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2162E4228019DDB0057B353 /* Debug */,
+				A2162E4328019DDB0057B353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2162E2028019DDB0057B353 /* Hestia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2162E2128019DDB0057B353 /* Hestia.xcdatamodel */,
+			);
+			currentVersion = A2162E2128019DDB0057B353 /* Hestia.xcdatamodel */;
+			path = Hestia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2162E0A28019DDB0057B353 /* Project object */;
+}
