@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-
+#if os(macOS)
 struct JSONInputView_Mac: View {
     
     @State var s = ""
@@ -39,4 +39,4 @@ struct JSONInputView_Mac: View {
     
     
 }
-
+#endif
