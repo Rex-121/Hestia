@@ -32,7 +32,9 @@ struct NavigationViewList: View {
                     NavigationLink {
                         feature
                             .mainView
+#if !os(macOS)
                             .navigationBarHidden(true)
+#endif
                     } label: {
                         Label(feature.rawValue, systemImage: "leaf")
                     }
