@@ -21,9 +21,16 @@
 		A2162E4C2801A3220057B353 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E4B2801A3220057B353 /* Features.swift */; };
 		A2162E4E2801A50C0057B353 /* Features-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E4D2801A50C0057B353 /* Features-Extension.swift */; };
 		A2162E502801C22A0057B353 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = A2162E4F2801C22A0057B353 /* Documentation.docc */; };
+		A2632DBC280FF11500D8D1AF /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBA280FF11500D8D1AF /* JSON.swift */; };
+		A2632DBD280FF11500D8D1AF /* JSONValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBB280FF11500D8D1AF /* JSONValidate.swift */; };
+		A2632DBF280FF20E00D8D1AF /* JSONParseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBE280FF20E00D8D1AF /* JSONParseView.swift */; };
 		A26DEE4828057BF800771B72 /* MacAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE4728057BF800771B72 /* MacAppDelegate.swift */; };
 		A26DEE862805855100771B72 /* MacTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE852805855100771B72 /* MacTitleView.swift */; };
 		A26DEE882805878900771B72 /* JSONInputView_Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE872805878900771B72 /* JSONInputView_Mac.swift */; };
+		A2C84F5328110FC500392C48 /* JSONDisassemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F5228110FC500392C48 /* JSONDisassemble.swift */; };
+		A2C84F562811619900392C48 /* JSONDictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F552811619900392C48 /* JSONDictionaryView.swift */; };
+		A2C84F58281161C200392C48 /* JSONArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F57281161C200392C48 /* JSONArrayView.swift */; };
+		A2C84F5A281161F800392C48 /* JSONLiteralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F59281161F800392C48 /* JSONLiteralView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +69,17 @@
 		A2162E4B2801A3220057B353 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
 		A2162E4D2801A50C0057B353 /* Features-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Features-Extension.swift"; sourceTree = "<group>"; };
 		A2162E4F2801C22A0057B353 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		A2632DBA280FF11500D8D1AF /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		A2632DBB280FF11500D8D1AF /* JSONValidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValidate.swift; sourceTree = "<group>"; };
+		A2632DBE280FF20E00D8D1AF /* JSONParseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParseView.swift; sourceTree = "<group>"; };
 		A26DEE45280575AB00771B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A26DEE4728057BF800771B72 /* MacAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAppDelegate.swift; sourceTree = "<group>"; };
 		A26DEE852805855100771B72 /* MacTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTitleView.swift; sourceTree = "<group>"; };
 		A26DEE872805878900771B72 /* JSONInputView_Mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInputView_Mac.swift; sourceTree = "<group>"; };
+		A2C84F5228110FC500392C48 /* JSONDisassemble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDisassemble.swift; sourceTree = "<group>"; };
+		A2C84F552811619900392C48 /* JSONDictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDictionaryView.swift; sourceTree = "<group>"; };
+		A2C84F57281161C200392C48 /* JSONArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONArrayView.swift; sourceTree = "<group>"; };
+		A2C84F59281161F800392C48 /* JSONLiteralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLiteralView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +176,9 @@
 		A2162E472801A27A0057B353 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				A2632DBA280FF11500D8D1AF /* JSON.swift */,
+				A2C84F5228110FC500392C48 /* JSONDisassemble.swift */,
+				A2632DBB280FF11500D8D1AF /* JSONValidate.swift */,
 				A2162E482801A2810057B353 /* Views */,
 			);
 			path = JSON;
@@ -170,7 +187,9 @@
 		A2162E482801A2810057B353 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A2C84F542811617E00392C48 /* display */,
 				A2162E492801A28C0057B353 /* JSONInputView.swift */,
+				A2632DBE280FF20E00D8D1AF /* JSONParseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +202,16 @@
 				A26DEE872805878900771B72 /* JSONInputView_Mac.swift */,
 			);
 			path = MacOS;
+			sourceTree = "<group>";
+		};
+		A2C84F542811617E00392C48 /* display */ = {
+			isa = PBXGroup;
+			children = (
+				A2C84F552811619900392C48 /* JSONDictionaryView.swift */,
+				A2C84F57281161C200392C48 /* JSONArrayView.swift */,
+				A2C84F59281161F800392C48 /* JSONLiteralView.swift */,
+			);
+			path = display;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,17 +345,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2162E1F28019DDB0057B353 /* Persistence.swift in Sources */,
+				A2632DBC280FF11500D8D1AF /* JSON.swift in Sources */,
 				A2162E2228019DDB0057B353 /* Hestia.xcdatamodeld in Sources */,
 				A2162E4C2801A3220057B353 /* Features.swift in Sources */,
 				A2162E1828019DDB0057B353 /* ContentView.swift in Sources */,
 				A26DEE4828057BF800771B72 /* MacAppDelegate.swift in Sources */,
+				A2C84F5A281161F800392C48 /* JSONLiteralView.swift in Sources */,
+				A2C84F5328110FC500392C48 /* JSONDisassemble.swift in Sources */,
 				A2162E502801C22A0057B353 /* Documentation.docc in Sources */,
+				A2C84F58281161C200392C48 /* JSONArrayView.swift in Sources */,
 				A26DEE862805855100771B72 /* MacTitleView.swift in Sources */,
 				A26DEE882805878900771B72 /* JSONInputView_Mac.swift in Sources */,
+				A2632DBD280FF11500D8D1AF /* JSONValidate.swift in Sources */,
 				A2162E4E2801A50C0057B353 /* Features-Extension.swift in Sources */,
 				A2162E462801A07A0057B353 /* MainView.swift in Sources */,
 				A2162E1628019DDB0057B353 /* HestiaApp.swift in Sources */,
+				A2632DBF280FF20E00D8D1AF /* JSONParseView.swift in Sources */,
 				A2162E4A2801A28C0057B353 /* JSONInputView.swift in Sources */,
+				A2C84F562811619900392C48 /* JSONDictionaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +534,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,6 +571,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

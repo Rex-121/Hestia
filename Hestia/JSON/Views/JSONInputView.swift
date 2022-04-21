@@ -21,7 +21,7 @@ struct JSONDisplayView: View {
         
         VStack(alignment: .leading, spacing: 0) {
             JSONInputView(dataSource: s)
-//            JSONParseView(dataSource: s)
+            JSONParseView(dataSource: s)
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
         
@@ -32,7 +32,7 @@ struct JSONDisplayView: View {
 
 struct JSONInputView: View {
     
-    @ObservedObject var dataSource: JSONData
+    @StateObject var dataSource: JSONData
     
     
     
@@ -69,6 +69,7 @@ struct JSONInputView: View {
             HStack(alignment: .bottom) {
                 Button {
                     dataSource.JSON = text
+                    
                 } label: {
                     Label("解析", systemImage: "signature")
                 }

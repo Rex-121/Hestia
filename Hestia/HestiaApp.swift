@@ -21,7 +21,7 @@ struct HestiaApp: App {
     var body: some Scene {
         WindowGroup {
 #if os(macOS)
-            EmptyView().frame(width: 0, height: 0)
+            MainView()//.frame(width: 0, height: 0)
 #else
             MainView()
 #endif
