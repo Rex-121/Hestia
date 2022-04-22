@@ -14,9 +14,6 @@ enum Features: String {
     ///  在部分情况下支持`JSON` 5
     case JSON
     
-    /// Markdown
-    case markdown
-    
 }
 
 extension Features: CaseIterable {

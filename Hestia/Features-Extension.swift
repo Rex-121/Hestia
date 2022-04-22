@@ -17,8 +17,6 @@ extension Features {
             switch self {
             case .JSON:
                 return JSONDisplayView()
-            case .markdown:
-                return JSONDisplayView()
             }
         }
     }

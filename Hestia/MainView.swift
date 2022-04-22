@@ -26,8 +26,8 @@ struct NavigationViewList: View {
     
     var body: some View {
         
-        return List {
-            DisclosureGroup(isExpanded: $expanded) {
+        List {
+//            DisclosureGroup(isExpanded: $expanded) {
                 ForEach(Features.allCases) { feature in
                     NavigationLink {
                         feature
@@ -39,12 +39,20 @@ struct NavigationViewList: View {
                         Label(feature.rawValue, systemImage: "leaf")
                     }
                 }
-            } label: {
-                Label("Features", systemImage: "leaf")
-            }
+//            } label: {
+//                Label("Features", systemImage: "leaf")
+//            }
         }
         
     }
     
+}
+
+
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
+            .preferredColorScheme(.dark)
+    }
 }
 
