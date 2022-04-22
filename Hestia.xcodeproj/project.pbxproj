@@ -24,9 +24,25 @@
 		A2632DBC280FF11500D8D1AF /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBA280FF11500D8D1AF /* JSON.swift */; };
 		A2632DBD280FF11500D8D1AF /* JSONValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBB280FF11500D8D1AF /* JSONValidate.swift */; };
 		A2632DBF280FF20E00D8D1AF /* JSONParseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBE280FF20E00D8D1AF /* JSONParseView.swift */; };
-		A26DEE4828057BF800771B72 /* MacAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE4728057BF800771B72 /* MacAppDelegate.swift */; };
-		A26DEE862805855100771B72 /* MacTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE852805855100771B72 /* MacTitleView.swift */; };
-		A26DEE882805878900771B72 /* JSONInputView_Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE872805878900771B72 /* JSONInputView_Mac.swift */; };
+		A26D11412812471B0034F0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26D11402812471B0034F0E1 /* Assets.xcassets */; };
+		A26D11442812471B0034F0E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26D11432812471B0034F0E1 /* Preview Assets.xcassets */; };
+		A26D11492812476B0034F0E1 /* HestiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E1528019DDB0057B353 /* HestiaApp.swift */; };
+		A26D114A2812476F0034F0E1 /* Features-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E4D2801A50C0057B353 /* Features-Extension.swift */; };
+		A26D114B2812476F0034F0E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E452801A07A0057B353 /* MainView.swift */; };
+		A26D114C2812476F0034F0E1 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E4B2801A3220057B353 /* Features.swift */; };
+		A26D114D281247720034F0E1 /* JSONValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBB280FF11500D8D1AF /* JSONValidate.swift */; };
+		A26D114E281247720034F0E1 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBA280FF11500D8D1AF /* JSON.swift */; };
+		A26D114F281247720034F0E1 /* JSONDisassemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F5228110FC500392C48 /* JSONDisassemble.swift */; };
+		A26D1150281247750034F0E1 /* JSONArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F57281161C200392C48 /* JSONArrayView.swift */; };
+		A26D1151281247750034F0E1 /* JSONInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E492801A28C0057B353 /* JSONInputView.swift */; };
+		A26D1152281247750034F0E1 /* JSONLiteralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F59281161F800392C48 /* JSONLiteralView.swift */; };
+		A26D1153281247750034F0E1 /* JSONDictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F552811619900392C48 /* JSONDictionaryView.swift */; };
+		A26D1154281247750034F0E1 /* JSONParseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2632DBE280FF20E00D8D1AF /* JSONParseView.swift */; };
+		A26D1155281247810034F0E1 /* JSONInputView_Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE872805878900771B72 /* JSONInputView_Mac.swift */; };
+		A26D1156281247810034F0E1 /* MacTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE852805855100771B72 /* MacTitleView.swift */; };
+		A26D1157281247810034F0E1 /* MacAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DEE4728057BF800771B72 /* MacAppDelegate.swift */; };
+		A26D11582812478D0034F0E1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2162E1E28019DDB0057B353 /* Persistence.swift */; };
+		A26D1159281247A00034F0E1 /* Hestia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2162E2028019DDB0057B353 /* Hestia.xcdatamodeld */; };
 		A2C84F5328110FC500392C48 /* JSONDisassemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F5228110FC500392C48 /* JSONDisassemble.swift */; };
 		A2C84F562811619900392C48 /* JSONDictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F552811619900392C48 /* JSONDictionaryView.swift */; };
 		A2C84F58281161C200392C48 /* JSONArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84F57281161C200392C48 /* JSONArrayView.swift */; };
@@ -72,6 +88,10 @@
 		A2632DBA280FF11500D8D1AF /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		A2632DBB280FF11500D8D1AF /* JSONValidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValidate.swift; sourceTree = "<group>"; };
 		A2632DBE280FF20E00D8D1AF /* JSONParseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParseView.swift; sourceTree = "<group>"; };
+		A26D113A2812471A0034F0E1 /* HestiaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HestiaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D11402812471B0034F0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26D11432812471B0034F0E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A26D11452812471B0034F0E1 /* HestiaMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HestiaMac.entitlements; sourceTree = "<group>"; };
 		A26DEE45280575AB00771B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A26DEE4728057BF800771B72 /* MacAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAppDelegate.swift; sourceTree = "<group>"; };
 		A26DEE852805855100771B72 /* MacTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTitleView.swift; sourceTree = "<group>"; };
@@ -104,6 +124,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A26D11372812471A0034F0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -111,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				A2162E1428019DDB0057B353 /* Hestia */,
+				A26D113B2812471B0034F0E1 /* HestiaMac */,
 				A2162E2A28019DDB0057B353 /* HestiaTests */,
 				A2162E3428019DDB0057B353 /* HestiaUITests */,
 				A2162E1328019DDB0057B353 /* Products */,
@@ -123,6 +151,7 @@
 				A2162E1228019DDB0057B353 /* Hestia.app */,
 				A2162E2728019DDB0057B353 /* HestiaTests.xctest */,
 				A2162E3128019DDB0057B353 /* HestiaUITests.xctest */,
+				A26D113A2812471A0034F0E1 /* HestiaMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,7 +159,6 @@
 		A2162E1428019DDB0057B353 /* Hestia */ = {
 			isa = PBXGroup;
 			children = (
-				A26DEE4628057BE100771B72 /* MacOS */,
 				A26DEE45280575AB00771B72 /* Info.plist */,
 				A2162E4F2801C22A0057B353 /* Documentation.docc */,
 				A2162E4428019FED0057B353 /* Hestia.entitlements */,
@@ -194,14 +222,33 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A26DEE4628057BE100771B72 /* MacOS */ = {
+		A26D113B2812471B0034F0E1 /* HestiaMac */ = {
+			isa = PBXGroup;
+			children = (
+				A26D115A281248250034F0E1 /* InBar */,
+				A26D11402812471B0034F0E1 /* Assets.xcassets */,
+				A26D11452812471B0034F0E1 /* HestiaMac.entitlements */,
+				A26D11422812471B0034F0E1 /* Preview Content */,
+			);
+			path = HestiaMac;
+			sourceTree = "<group>";
+		};
+		A26D11422812471B0034F0E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A26D11432812471B0034F0E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A26D115A281248250034F0E1 /* InBar */ = {
 			isa = PBXGroup;
 			children = (
 				A26DEE4728057BF800771B72 /* MacAppDelegate.swift */,
 				A26DEE852805855100771B72 /* MacTitleView.swift */,
 				A26DEE872805878900771B72 /* JSONInputView_Mac.swift */,
 			);
-			path = MacOS;
+			path = InBar;
 			sourceTree = "<group>";
 		};
 		A2C84F542811617E00392C48 /* display */ = {
@@ -270,6 +317,23 @@
 			productReference = A2162E3128019DDB0057B353 /* HestiaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A26D11392812471A0034F0E1 /* HestiaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D11462812471B0034F0E1 /* Build configuration list for PBXNativeTarget "HestiaMac" */;
+			buildPhases = (
+				A26D11362812471A0034F0E1 /* Sources */,
+				A26D11372812471A0034F0E1 /* Frameworks */,
+				A26D11382812471A0034F0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HestiaMac;
+			productName = HestiaMac;
+			productReference = A26D113A2812471A0034F0E1 /* HestiaMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -291,6 +355,9 @@
 						CreatedOnToolsVersion = 13.3;
 						TestTargetID = A2162E1128019DDB0057B353;
 					};
+					A26D11392812471A0034F0E1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 				};
 			};
 			buildConfigurationList = A2162E0D28019DDB0057B353 /* Build configuration list for PBXProject "Hestia" */;
@@ -307,6 +374,7 @@
 			projectRoot = "";
 			targets = (
 				A2162E1128019DDB0057B353 /* Hestia */,
+				A26D11392812471A0034F0E1 /* HestiaMac */,
 				A2162E2628019DDB0057B353 /* HestiaTests */,
 				A2162E3028019DDB0057B353 /* HestiaUITests */,
 			);
@@ -337,6 +405,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A26D11382812471A0034F0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D11442812471B0034F0E1 /* Preview Assets.xcassets in Resources */,
+				A26D11412812471B0034F0E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -349,13 +426,10 @@
 				A2162E2228019DDB0057B353 /* Hestia.xcdatamodeld in Sources */,
 				A2162E4C2801A3220057B353 /* Features.swift in Sources */,
 				A2162E1828019DDB0057B353 /* ContentView.swift in Sources */,
-				A26DEE4828057BF800771B72 /* MacAppDelegate.swift in Sources */,
 				A2C84F5A281161F800392C48 /* JSONLiteralView.swift in Sources */,
 				A2C84F5328110FC500392C48 /* JSONDisassemble.swift in Sources */,
 				A2162E502801C22A0057B353 /* Documentation.docc in Sources */,
 				A2C84F58281161C200392C48 /* JSONArrayView.swift in Sources */,
-				A26DEE862805855100771B72 /* MacTitleView.swift in Sources */,
-				A26DEE882805878900771B72 /* JSONInputView_Mac.swift in Sources */,
 				A2632DBD280FF11500D8D1AF /* JSONValidate.swift in Sources */,
 				A2162E4E2801A50C0057B353 /* Features-Extension.swift in Sources */,
 				A2162E462801A07A0057B353 /* MainView.swift in Sources */,
@@ -380,6 +454,30 @@
 			files = (
 				A2162E3828019DDB0057B353 /* HestiaUITestsLaunchTests.swift in Sources */,
 				A2162E3628019DDB0057B353 /* HestiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D11362812471A0034F0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D1154281247750034F0E1 /* JSONParseView.swift in Sources */,
+				A26D1150281247750034F0E1 /* JSONArrayView.swift in Sources */,
+				A26D1159281247A00034F0E1 /* Hestia.xcdatamodeld in Sources */,
+				A26D114C2812476F0034F0E1 /* Features.swift in Sources */,
+				A26D1152281247750034F0E1 /* JSONLiteralView.swift in Sources */,
+				A26D1151281247750034F0E1 /* JSONInputView.swift in Sources */,
+				A26D114A2812476F0034F0E1 /* Features-Extension.swift in Sources */,
+				A26D1157281247810034F0E1 /* MacAppDelegate.swift in Sources */,
+				A26D114F281247720034F0E1 /* JSONDisassemble.swift in Sources */,
+				A26D114D281247720034F0E1 /* JSONValidate.swift in Sources */,
+				A26D11582812478D0034F0E1 /* Persistence.swift in Sources */,
+				A26D11492812476B0034F0E1 /* HestiaApp.swift in Sources */,
+				A26D114B2812476F0034F0E1 /* MainView.swift in Sources */,
+				A26D1156281247810034F0E1 /* MacTitleView.swift in Sources */,
+				A26D1153281247750034F0E1 /* JSONDictionaryView.swift in Sources */,
+				A26D1155281247810034F0E1 /* JSONInputView_Mac.swift in Sources */,
+				A26D114E281247720034F0E1 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +633,6 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,8 +641,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.Hestia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,7 +669,6 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -581,8 +677,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.Hestia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -665,6 +761,64 @@
 			};
 			name = Release;
 		};
+		A26D11472812471B0034F0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HestiaMac/HestiaMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HestiaMac/Preview Content\"";
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.HestiaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A26D11482812471B0034F0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HestiaMac/HestiaMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HestiaMac/Preview Content\"";
+				DEVELOPMENT_TEAM = S7YAAK4XAE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrant.HestiaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -700,6 +854,15 @@
 			buildConfigurations = (
 				A2162E4228019DDB0057B353 /* Debug */,
 				A2162E4328019DDB0057B353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26D11462812471B0034F0E1 /* Build configuration list for PBXNativeTarget "HestiaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D11472812471B0034F0E1 /* Debug */,
+				A26D11482812471B0034F0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
