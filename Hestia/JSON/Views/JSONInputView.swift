@@ -19,14 +19,22 @@ struct JSONDisplayView: View {
     
     var body: some View {
         
+        
         VStack(alignment: .leading, spacing: 0) {
             JSONInputView(dataSource: s)
             JSONParseView(dataSource: s)
         }
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
+        .frame(minWidth: 400, idealWidth: 400, maxWidth: .infinity,
+               minHeight: 300, maxHeight: .infinity, alignment: .topLeading)
         
     }
     
+}
+
+struct JSONDisplayView_Previews: PreviewProvider {
+    static var previews: some View {
+        JSONDisplayView()
+    }
 }
 
 
@@ -50,36 +58,35 @@ struct JSONInputView: View {
       "backwardsCompatible": "with JSON",
     }
     """
-
+    
+    var textEditor: some View {
+        TextEditor(text: $text)
+            .font(.title3)
+            .lineSpacing(10)
+            .disableAutocorrection(true)
+            .lineLimit(5)
+            .multilineTextAlignment(.leading)
+            .padding(5) // 不加padding，文字会漏出来 原因未知
+    }
+    
     var body: some View {
-                
-        return VStack {
+        
+        VStack(alignment: .leading) {
             
-            TextEditor(text: $text)
-                .font(.title3)
-                .lineSpacing(10)
-                .disableAutocorrection(true)
-                .lineLimit(5)
-                .background(Color.gray.opacity(0.3))
-                .multilineTextAlignment(.leading)
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 200)
-                .padding(20) // 不加padding，文字会漏出来 原因未知
-            
-            
-            HStack(alignment: .bottom) {
+            ZStack(alignment: .bottomTrailing) {
+                textEditor
                 Button {
                     dataSource.JSON = text
-                    
                 } label: {
                     Label("解析", systemImage: "signature")
                 }
-                .frame(alignment: .leading)
+                .padding(.trailing, 15)
             }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+            .frame(minWidth: 0, maxWidth: .infinity,
+                           minHeight: 0, idealHeight: 300, maxHeight: 400)
             
+            Divider()
         }
-        .frame(minWidth: 0, maxWidth: .infinity, alignment: .topLeading)
         
     }
     

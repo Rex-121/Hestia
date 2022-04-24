@@ -11,11 +11,27 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationView {
-            NavigationViewList()
-                .navigationTitle("Main")
-                .listStyle(SidebarListStyle())
+            
+            main
+        
+            JSONDisplayView()
+                
         }
+        .frame(minWidth: 700, idealWidth: 1200, maxWidth: 1200,
+               minHeight: 400, maxHeight: .infinity)
         .listStyle(.inset)
+    }
+    
+    var main: some View {
+        NavigationViewList()
+        
+        #if os(iOS)
+            .navigationTitle("Main")
+        #else
+            .frame(minWidth: 200, idealWidth: 250, maxWidth: 300)
+            .padding(.top, 20)
+            .listStyle(SidebarListStyle())
+        #endif
     }
 }
 
@@ -27,7 +43,6 @@ struct NavigationViewList: View {
     var body: some View {
         
         List {
-//            DisclosureGroup(isExpanded: $expanded) {
                 ForEach(Features.allCases) { feature in
                     NavigationLink {
                         feature
@@ -37,11 +52,10 @@ struct NavigationViewList: View {
 #endif
                     } label: {
                         Label(feature.rawValue, systemImage: "leaf")
+                            .foregroundColor(.white)
+                            .font(.title3)
                     }
                 }
-//            } label: {
-//                Label("Features", systemImage: "leaf")
-//            }
         }
         
     }

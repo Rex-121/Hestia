@@ -37,19 +37,31 @@ struct JSONParseView: View {
     
     var body: some View {
         
-        let s = dataSource.JSON
+        let s = sf//dataSource.JSON
         
         if (s.isEmpty) {
-            Text("f")
+            EmptyView()
         }
         else {
             
             let va = JSONDisassemble.disassemble(value: s)
-            
-            JSONViewable(key: "", json: va, level: 0).view()
+            ScrollView {
+            JSONViewable(key: "", json: va, level: 0)
+                .view()
+                .padding()
+                .frame(width: 600, alignment: .leading)
+            }
         }
         
         
+    }
+}
+
+struct JSONParseView_Previews: PreviewProvider {
+    static var previews: some View {
+        JSONParseView(dataSource: JSONData())
+            
+            
     }
 }
 

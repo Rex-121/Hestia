@@ -18,6 +18,7 @@ struct JSONLiteralView: View {
                 Text("\(json.key): ")
             }
             Text(json.json.debugDescription)
+                .lineLimit(0)
         }
     }
     
